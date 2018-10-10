@@ -14,11 +14,11 @@
   <div class="banner">
     <!-- <img src="assets/imgs/home-bg.jpg" alt=""> -->
     <div class="banner-overlay"></div>
-    <div class="caption">
+    <div class="caption"> 
       <p class="large playfair-reg">Your Success,</p>
       <p class="large playfair-reg">Our Business</p>
       <!-- <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> -->
-      <button ion-button class="btn-orange"> Request a quote</button>
+      <button ion-button class="btn-orange" (click)="requestQuote()"> Request a quote</button>
       <button ion-button class="btn-blue">View our porftolio</button>
     </div>
   </div>
@@ -111,7 +111,7 @@
 
   <div class="quote">
     <p>Ready to discuss your project?</p>
-    <button ion-button> Request a quote</button>
+    <button ion-button (click)="requestQuote()"> Request a quote</button>
   </div>
 
   <div class="footer">

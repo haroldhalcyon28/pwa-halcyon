@@ -22,4 +22,8 @@ export class AboutUsPage {
     console.log('ionViewDidLoad AboutUsPage');
   }
 
+  requestQuote() {
+    this.navCtrl.setRoot('ContactUsPage');
+  }
+
 }

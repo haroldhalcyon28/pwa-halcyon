@@ -22,4 +22,8 @@ export class ServicesPage {
     console.log('ionViewDidLoad ServicesPage');
   }
 
+  requestQuote() {
+    this.navCtrl.setRoot('ContactUsPage');
+  }
+
 }
