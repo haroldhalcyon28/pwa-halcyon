@@ -1,3 +1,18 @@
 page-services {
-
+    ion-content.content{
+        background: #fff;
+    }
+    .toolbar-background{
+        border: none;
+        background: rgba(255, 255, 255, .66);
+        }
+    .fixed-content, .scroll-content{
+        margin-top: 0 !important;
+    }
+    .header::after{
+        content: none;
+    }
+    .services{
+        margin-top: 80px;
+    }
 }
