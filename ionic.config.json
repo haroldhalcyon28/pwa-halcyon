@@ -1,7 +1,0 @@
-{
-  "name": "halcyon-pwa",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
